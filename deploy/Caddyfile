@@ -1,0 +1,10 @@
+{
+    email {$TLS_EMAIL}
+}
+
+{$API_HOST} {
+    request_body {
+        max_size 1MB
+    }
+    reverse_proxy api:8000
+}

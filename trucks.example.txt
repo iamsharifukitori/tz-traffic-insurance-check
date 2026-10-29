@@ -1,0 +1,3 @@
+# Copy your actual Desktop trucks.txt to the server project folder.
+# One registration per line, up to 20 unique registrations.
+# Example format: T 123 ABC
